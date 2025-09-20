@@ -1,0 +1,551 @@
+* {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+    font-family: "Arsenal", sans-serif;
+
+}
+
+
+.menu {
+    height: 100px;
+    background-color: #112244;
+    margin-top: 0em;
+    display: flex;
+
+}
+
+
+
+.logo {
+    height: 70%;
+    padding-left: 20%;
+    margin-top: 2em;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin-left: 10%;
+    margin-top: 2.5em;
+}
+
+li {
+    margin-right: 25%;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 1.0vw;
+
+}
+
+li :hover {
+    color: orange;
+    border-bottom: 3px solid orange;
+    padding-bottom: 30px;
+
+}
+
+.menu img {
+
+    width: 100%;
+    margin-left: 12%;
+    margin-right: 7%;
+}
+
+#atual {
+    color: #FF7B00;
+}
+
+.wallpaper {
+    position: relative;
+}
+
+.wallpaper img {
+    width: 100%;
+}
+
+.wallpaper p {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    font-size: 3vw;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.buttons {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    display: flex;
+    gap: 20px;
+}
+
+.button {
+    background: #FF7B00;
+    color: #112244;
+    padding: 12px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background: #112244;
+    color: #ffffff;
+}
+
+.candidato {
+    display: flex;
+
+}
+
+.candidato img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 25%;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.infos {
+
+    margin: 0;
+    
+}
+
+.infos h3 {
+    color: #FF7B00;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.infos h1 {
+    color: #112244;
+    font-weight: 700;
+    font-size: 2vw;
+    margin-bottom: 2%;
+}
+
+.infos p {
+    font-size: 1.5vw;
+    color: #112244;
+    line-height: 1.5;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+.accordeons {
+   
+    /* padding-left: 5%; */
+    padding-right: 10%;
+    /* padding-top: 5%; */
+    transition: 0.5s;
+    
+}
+
+.faixa_de_baixo {
+
+
+
+    margin-top: 2em;
+
+    display: flex;
+    
+}
+
+.lado_esquerdo {
+    width: 70%;
+    height: 70%;
+
+    /* margin-left: 5%; */
+
+}
+
+.lado_direito {
+    width: 50%;
+    height: 100%;
+    
+}
+
+h3 {
+    font-size: 1vw;
+    color: #FF7B00;
+}
+
+h1 {
+    font-size: 2vw;
+}
+
+p {
+    font-size: 1.5vw;
+    margin-top: 5%;
+}
+
+
+.accordeons {
+    width: 55%;
+    padding-left: 5%;
+    padding-right: 10%;
+    padding-top: 5%;
+}
+
+details {
+    width: 100%;
+    margin: 3%;
+    border: 0px solid #FF7B00;
+    border-radius: 8px;
+    background-color: #ff7b0035;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+
+summary {
+    cursor: pointer;
+    padding: 12px;
+    background-color: #FF7B00;
+    color: #112244;
+    font-weight: bold;
+   
+    transition: 0.5s;
+}
+
+summary:hover {
+    background-color: #112244;
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+
+details p {
+    padding: 12px;
+    background-color: #fffaf5;
+    color: #000000;
+}
+
+
+/* CSS para a sessão valores */
+.valores {
+    display: flex;
+    flex-direction: column;
+    background-color: #112244;
+    margin-top: 5%;
+    padding-top: 3%;
+    text-align: center;
+    align-items: center;
+}
+
+.valores h3 {
+    color: #FF7B00;
+    padding-bottom: 1%;
+}
+
+.valores h1 {
+    color: #ffffff;
+    font-size: 2.5vw;
+    padding-bottom: 2%;
+}
+
+.valores p {
+    color: #ffffff;
+    width: 80%;
+    font-size: 1.5vw;
+    line-height: 1.5;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 3% auto;
+    gap: 3%;
+}
+
+.card {
+    flex: 1 1 calc(33.33% - 3%);
+    background-color: #ffffff;
+    border-radius: 8px;
+    text-align: left;
+    padding: 1.5%;
+    box-sizing: border-box;
+    margin-bottom: 3%;
+    max-height: 200px;
+    overflow: hidden;
+}
+
+.cards :hover {
+    background-color: #FF7B00;
+    transition: 0.3s;
+    scale: 1.05;
+}
+
+#card_icon {
+    width: 10%;
+    padding-bottom: 2%;
+}
+
+#card_title {
+    color: #112244;
+    padding-bottom: 2%;
+}
+
+#card_paragraph {
+    color: #112244;
+    font-size: 1vw;
+    margin-top: -0.1em;
+}
+
+.line {
+    height: 10px;
+    background-color: #FF7B00;
+}
+
+footer {
+    max-width: 100%;
+}
+
+/* CSS para o footer */
+.footer_social {
+    text-align: center;
+
+    margin-bottom: 2%;
+}
+
+.footer_redes_sociais {
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+}
+
+.footer_redes_sociais img {
+    width: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.footer_social h3 {
+    color: #112244;
+    padding-top: 2%;
+}
+
+.footer_social p {
+    color: #112244;
+}
+
+.footer_links h3 {
+    color: #112244;
+    font-size: 1.4vw;
+}
+
+.footer_links p,
+.footer_links li {
+    color: #112244;
+}
+
+.footer_links {
+    max-width: 80%;
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-left: 10%;
+}
+
+.footer_links>div {
+    flex: 1;
+}
+
+
+/* mudar ordem de elementos.*/
+@media (max-width: 768px) {
+    .candidato {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 425px) {
+
+
+    .trajetoria {
+        flex-direction: column;
+       
+    }
+
+    .candidato img {
+        height: 40%;
+        width: 40%;
+    }
+
+    .wallpaper p {
+
+        left: 5%;
+    }
+
+    .faixa_esquerda {
+        width: 100%;
+    }
+
+
+
+    .faixa_esquerda h1 {
+        font-size: 3.5vw;
+    }
+
+    .faixa_esquerda p {
+        font-size: 2.5vw;
+    }
+
+
+    .accordeons {
+        width: 80%;
+
+    }
+
+    details {
+        width: 100%;
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    summary {
+        
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .texto_acordeons {
+        width: 100%;
+    }
+
+
+
+    .menu {
+        width: 100%;
+    }
+
+    .logo {
+        margin-top: 10%;
+        margin-right: -10%;
+        margin-left: -10%;
+        width: 10%;
+        height: 60%;
+    }
+
+    li {
+        height: 80%;
+        width: 80%;
+    }
+
+    a {
+        font-size: 3vw;
+    }
+
+    li {
+        margin-right: 10%;
+    }
+
+    p {
+        margin-top: -1%;
+    }
+
+
+    .button {
+        font-size: 3vw;
+    }
+
+
+
+
+    .faixa_de_baixo {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .textos p {
+        width: 80%;
+        height: 30em;
+        font-size: 24px;
+        margin-top: 6px;
+        margin-right: 5%
+    }
+
+    .textos {
+        margin-left: -0.5%;
+        width: 100%;
+        margin-right: -50%;
+    }
+
+    .lado_esquerdo p {
+        
+        margin-left: 5%;
+    }
+
+    .lado_esquerdo {
+        width: 100%;
+    }
+
+    .lado_esquerdo h3 {
+        margin-left: 5%;
+    }
+
+    .valores {
+        width: 100%;
+    }
+
+    .line {
+        width: 100%;
+    }
+
+    .infos p {
+        width: 80%;
+
+        flex-direction: column;
+        height: 30em;
+        font-size: 24px;
+
+    }
+
+    .menu img {
+        margin-left: -10%;
+    }
+
+    .footer_redes_sociais {
+        width: 100%;
+    }
+
+    /* p{
+    width: 100%;
+   } */
+
+    .candidato h3,
+    .textos h3 {
+        width: 90%;
+        font-size: 5vw;
+        margin-right: 0;
+    }
+
+    .footer_social {
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    .valores {
+        flex-direction: column;
+    }
+
+}
